@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+    width: 20%;
+}
+.TODOCARD{
+    display: flex;
+}
+.Title{
+    text-align: center;
+}
