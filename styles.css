@@ -8,3 +8,10 @@
 .Title{
     text-align: center;
 }
+.input__container{
+    text-align:center
+}
+.TODOCARD{
+    display: flex;
+    justify-content: space-evenly
+}

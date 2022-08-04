@@ -37,9 +37,8 @@ function run(){
 
     del_btn.onclick = function(){
         let x = del_btn.id 
-        document.getElementById(x).innerHTML = "  "
+        document.getElementById(x).innerHTML = ""
     }
-
     
 
 }
