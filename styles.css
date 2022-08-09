@@ -60,3 +60,20 @@ h1{
     background: transparent;
     transition: border-color 0.2s;
 }
+.todo__Box{
+    border-style: solid;
+    border-color: #fefcfd;
+    color:#FEFCFD;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+.card_del_button{
+    font-family: inherit;
+    border: 0;
+    color: #FEFCFD;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    cursor: pointer;
+}

@@ -33,11 +33,13 @@ function run(){
     let del_btn = document.createElement("button")
     del_btn.innerHTML="Delete"
     del_btn.id = containerMix
+    del_btn.className = "card_del_button"
     document.getElementById(containerMix).appendChild(del_btn)
+    document.getElementById(containerMix).className  = "todo__Box"
 
     del_btn.onclick = function(){
         let x = del_btn.id 
-        document.getElementById(x).innerHTML = ""
+        document.getElementById(x).remove()
     }
     
 
